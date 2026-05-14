@@ -7,7 +7,7 @@ main(){
 
     for(int i=0; i<7; i++){
         printf(" %d", vector[i]);
-        printf("%p\n", ptr);
+        printf("%p\n", *(ptr+i));
     }
     return 0;
 }
