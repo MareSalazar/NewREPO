@@ -4,8 +4,10 @@ main(){
     int *ptr;
     ptr=&vector[0];
     printf("%d", ptr);
+
     for(int i=0; i<7; i++){
         printf(" %d", vector[i]);
+        printf("%p\n", ptr);
     }
     return 0;
 }
